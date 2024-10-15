@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #EBDBB2;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Raleway";
+}
+body {
+    background-color: #32302F;
+}
+ul {
+    list-style: none;
+    background-color: #665C54;
+    width: 300px;
+    padding: 10px;
+}
+.items_nav {
+    display: inline;
+    padding: 9px;
+}
+h1 {
+    background-image: url(assets/gatitos.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    padding: 80px 20px;
+    height: 500px;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #7DAEA3;
+    text-shadow: 5px 5px #928374;
+    font-family: "JetBrains Mono", monospace;
+}
+.tarjeta {
+    max-width: 300px;
+    margin: 20px auto;
+    border: 2px solid #A9B665;
+    box-shadow: 5px 5px 10px #7DAEA3, -5px -5px 10px #D3869B;
+}
+.tarjeta_img {
+    width: 100%;
+}
+.resaltado {
+    background-color: #A9B665;
+}
