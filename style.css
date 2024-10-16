@@ -20,17 +20,19 @@ ul {
     display: inline;
     padding: 9px;
 }
-h1 {
-    background-image: url(assets/gatitos.jpg);
+.titulo {
+    background-image: linear-gradient(#32302fdc, transparent), url(imagenes/gatitos.jpg);
     background-size: cover;
     background-position: 50%;
     background-attachment: fixed;
+    border-bottom: 1px solid #7DAEA3;
+}
+h1 {
     padding: 80px 20px;
     height: 500px;
     text-align: center;
     font-size: 4rem;
     text-transform: uppercase;
-    color: #7DAEA3;
     text-shadow: 5px 5px #928374;
     font-family: "JetBrains Mono", monospace;
 }
@@ -39,10 +41,14 @@ h1 {
     margin: 20px auto;
     border: 2px solid #A9B665;
     box-shadow: 5px 5px 10px #7DAEA3, -5px -5px 10px #D3869B;
+    background-color: #413e3c;
 }
 .tarjeta_img {
     width: 100%;
 }
 .resaltado {
     background-color: #a9b66598;
+}
+p {
+    padding: 5px;
 }
